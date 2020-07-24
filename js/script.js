@@ -1,11 +1,16 @@
 "use strict";
 
+let nubmerOfFilms = prompt('Сколько фильмов вы уже посмотрели?', '');
+const moviesNulled = {};
+const actorsNulled = {};
+const genres = [];
+const privat = false;
 
-let incr = 10,
-    decr = 10;
+const personalMovieDB = {
+    count: nubmerOfFilms,
+    movies: objNulled,
+    actors: actors,
 
-// ++incr;
-// --decr;
 
-console.log(incr++);
-console.log(decr--);
+
+}
